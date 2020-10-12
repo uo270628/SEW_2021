@@ -1,0 +1,48 @@
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #4da2f1;
+  text-shadow: 3px 3px 1px black;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-style: italic;
+}
+h2{
+  font-size: 30px;
+  color: #0a0dc4;
+  text-shadow: 3px 3px 1px black;
+  font-family: Georgia, serif;
+  font-style: normal;
+}
+p, li {
+  line-height: 2;
+  letter-spacing: 1px;
+}
+html {
+  background-color: #00539F;
+}
+body {
+  margin:2%;
+  background-color: #027431;
+  border: 5px solid black;
+  display: flex;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  flex-wrap: wrap;
+}
+table {
+  width: 100%;
+  text-align: center;
+}
+tr, td {
+  width: 25%;
+  text-align: center;
+}
+ul{
+  width: 100%;
+  text-align: center;
+  color: #c7a406;
+}
+section{
+  text-align: center;
+}
