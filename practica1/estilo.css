@@ -1,48 +1,99 @@
+/* Especificidad = 1 */
 h1 {
-  font-size: 60px;
+  font-size: 40px;
+  font-weight: 600;
   text-align: center;
-  margin: 0;
-  padding: 20px 0;
-  color: #4da2f1;
-  text-shadow: 3px 3px 1px black;
-  font-family: Comic Sans MS, Comic Sans, cursive;
-  font-style: italic;
+  color: #3a6d9c;
+  background-color: #8a8787;
+  font-family: Arial, sans-serif;
+  padding: 70px 25px;
 }
+/* Especificidad = 1 */
 h2{
   font-size: 30px;
+  font-weight: 600;
   color: #0a0dc4;
-  text-shadow: 3px 3px 1px black;
+  background-color: #6d6a6a;
+  padding: 30px 25px;
+  text-align: left; 
   font-family: Georgia, serif;
-  font-style: normal;
 }
+/* Especificidad = 1 */
+h3{
+  font-size: 24px;
+  font-weight: 600;
+  color: #282835;
+  background-color: #6d6a6a;
+  text-align: center; 
+  font-family: Georgia, serif;
+}
+/* Especificidad = 2 */
 p, li {
   line-height: 2;
   letter-spacing: 1px;
 }
+/* Especificidad = 1 */
 html {
-  background-color: #00539F;
+  background-color: #021322;
 }
+/* Especificidad = 1 */
 body {
   margin:2%;
-  background-color: #027431;
-  border: 5px solid black;
+  line-height: 1.6;
+  background-color: #8a8787;
+  color: black;
+  border: 5px solid white;
   display: flex;
-  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-family: Helvetica, sans-serif;
   flex-wrap: wrap;
 }
+/* Especificidad = 1 */
 table {
-  width: 100%;
+  margin:auto; 
   text-align: center;
 }
+/* Especificidad = 2 */
 tr, td {
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
   width: 25%;
   text-align: center;
 }
+/* Especificidad = 1 */
 ul{
-  width: 100%;
-  text-align: center;
-  color: #c7a406;
+  color: black;
+  text-align: left;
 }
-section{
+/* Especificidad = 1 */
+section,article{
+  width: 100%;
+  text-align:center;
+  background-color: #6d6a6a;
+}
+/* Especificidad = 1 */
+header
+{
+	width: 100%;
+}
+/* Especificidad = 10 */
+.menu {
+  background-color: #8a8787;
+  overflow: hidden;
+}
+/* Especificidad = 11 */
+.menu a {
+  float: left;
+  color: #2c0803;
   text-align: center;
+  padding: 15px 15px;
+  font-size: 20px;
+  border: 2px solid black;
+}
+/* Especificidad = 12 */
+.menu a:hover {
+  background-color: #6d6a6a;
+  color: #0a0dc4;
+}
+footer{
+  width: 100%;
 }
