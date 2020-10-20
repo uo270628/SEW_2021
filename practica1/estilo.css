@@ -28,7 +28,7 @@ h3{
   font-family: Georgia, serif;
 }
 /* Especificidad = 2 */
-p, li {
+p {
   line-height: 2;
   letter-spacing: 1px;
 }
@@ -38,6 +38,7 @@ html {
 }
 /* Especificidad = 1 */
 body {
+  
   margin:2%;
   line-height: 1.6;
   background-color: white;
@@ -51,16 +52,19 @@ body {
 table {
   margin:auto; 
   text-align: center;
+  font-size: larger;
 }
 /* Especificidad = 2 */
 tr, td {
   width: 25%;
   text-align: center;
+  font-size: larger;
 }
 /* Especificidad = 1 */
-ul{
+ul, li{
   color: black;
   text-align: left;
+  font-size: larger;
 }
 /* Especificidad = 1 */
 section,article{
@@ -94,4 +98,8 @@ header
 }
 footer{
   width: 100%;
+}
+img{
+  width: 60%;
+  text-align: center;
 }
