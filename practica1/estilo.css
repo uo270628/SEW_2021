@@ -47,8 +47,8 @@ table {
   font-size: larger;
   background-color: white;
 }
-/* Especificidad = 2 */
-tr, td {
+/* Especificidad = 3 */
+tr, td, th {
   width: 25%;
   text-align: center;
   font-size: larger;
@@ -91,9 +91,11 @@ header
   background-color: white;
   color: #0a0dc4;
 }
+/* Especificidad = 1 */
 footer{
   width: 100%;
 }
+/* Especificidad = 10 */
 .galeria{
   width: 40%;
   text-align: center;
