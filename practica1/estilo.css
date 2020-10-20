@@ -54,6 +54,7 @@ table {
   text-align: center;
   font-size: larger;
   background-color: white;
+  width: 100%;
 }
 /* Especificidad = 2 */
 tr, td {
