@@ -19,7 +19,7 @@ h2{
   font-family: Georgia, serif;
 }
 
-/* Especificidad = 2 */
+/* Especificidad = 1 */
 p {
   line-height: 2;
   letter-spacing: 1px;
@@ -47,7 +47,7 @@ table {
   font-size: larger;
   background-color: white;
 }
-/* Especificidad = 3 */
+/* Especificidad = 1 */
 tr, td, th {
   width: 25%;
   text-align: center;
@@ -86,7 +86,7 @@ header
   font-size: 20px;
   border: 2px solid black;
 }
-/* Especificidad = 12 */
+/* Especificidad = 21 */
 .menu a:hover {
   background-color: white;
   color: #0a0dc4;
@@ -99,4 +99,8 @@ footer{
 .galeria{
   width: 40%;
   text-align: center;
+}
+/* Especificidad = 1 */
+audio{
+  height: 50px;
 }
