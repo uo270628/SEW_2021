@@ -47,6 +47,7 @@ body {
   display: flex;
   font-family: Helvetica, sans-serif;
   flex-wrap: wrap;
+  width: 100%;
 }
 /* Especificidad = 1 */
 table {
@@ -54,7 +55,6 @@ table {
   text-align: center;
   font-size: larger;
   background-color: white;
-  width: 100%;
 }
 /* Especificidad = 2 */
 tr, td {
